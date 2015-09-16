@@ -86,7 +86,7 @@ document.querySelector('.controls button[name=reset]').onclick = function() {
 document.querySelector('.controls button[name=do-not-press]').onclick = function() {
 	var grenadeElement = document.getElementById('smoke-grenade'); 
 	grenadeElement.style.backgroundColor = "transparent";
-	grenadeElement.style.backgroundImage = "url(/img/kostyan_ebalo.png)";
+	grenadeElement.style.backgroundImage = "url(img/kostyan_ebalo.png)";
 	grenadeElement.style.backgroundSize = "100px 100px";
 	grenadeElement.style.width = "100px";
 	grenadeElement.style.height = "100px";
