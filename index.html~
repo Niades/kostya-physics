@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Grena</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="controls">			
+			<label for="force">
+			Force:	<input type="number" value="10" name="force">
+			</label>
+			<br />
+			<label for="rotation-speed">
+			Rotation speed:	<input type="number" value="9" name="rotation-speed">
+			</label>
+			<br />
+			<label for="angle">
+			Angle:	<input type="number" value="45" name="angle">
+			</label>
+			<br />
+			<button name="throw">Throw</button>
+			<button name="reset">Reset</button>
+		</div>
+		<div id="smoke-grenade"></div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

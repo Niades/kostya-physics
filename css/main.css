@@ -1,0 +1,24 @@
+body {
+	position: relative;
+	border-bottom: 1px solid black;
+}
+
+.controls {
+	background: white;
+	padding: 5px;
+	border: 1px solid black;
+	position: fixed;
+	z-index: 999;
+}
+
+.dont-press {
+	background: red;
+	color: white;
+}
+
+#smoke-grenade {
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	background-color: blue;
+}
